@@ -1,0 +1,10 @@
+[
+  { "icon": "chart", "name": "Annual Budget", "tag": "PDF" },
+  { "icon": "briefcase", "name": "Procurement", "tag": "PDF" },
+  { "icon": "cash", "name": "Financial Reports", "tag": "PDF" },
+  { "icon": "doc", "name": "Citizen's Charter", "tag": "PDF" },
+  { "icon": "users", "name": "Government Programs", "tag": "PDF" },
+  { "icon": "gavel", "name": "Municipal Ordinances", "tag": "PDF" },
+  { "icon": "book", "name": "Resolutions", "tag": "PDF" },
+  { "icon": "file", "name": "Other Public Documents", "tag": "PDF" }
+]

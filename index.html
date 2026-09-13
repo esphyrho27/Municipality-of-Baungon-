@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Municipality of Baungon, Bukidnon — Official Website</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <img src="assets/images/baungon-logo.png" alt="Official Seal of the Municipality of Baungon, Bukidnon">
+      <div class="brand-text">
+        <div class="t1">Municipality of Baungon</div>
+        <div class="t2">Province of Bukidnon</div>
+      </div>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#officials">Officials</a>
+      <a href="#departments">Departments</a>
+      <a href="#services">Services</a>
+      <a href="#announcements">Announcements</a>
+      <a href="#events">Events</a>
+      <a href="#transparency">Transparency</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    
+    <h1>Welcome to the Municipality of Baungon</h1>
+    <div class="sub">Province of Bukidnon</div>
+    <p class="lead">Discover the Municipality of Baungon — a community committed to responsive governance, accessible public services, and sustainable development.</p>
+    <div class="hero-actions">
+      <a href="#services" class="btn btn-primary">Explore Municipal Services</a>
+      <a href="#about" class="btn btn-outline">Learn About Baungon</a>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK ACCESS -->
+<section class="section" id="quick-access">
+  <div class="container">
+    <div class="section-head">
+      <h2>How can we help you?</h2>
+      <p>Find the office, program, or document you need in a few clicks.</p>
+    </div>
+    <div class="quick-grid" id="quickGrid"></div>
+  </div>
+</section>
+
+<!-- ANNOUNCEMENTS -->
+<section class="section" id="announcements" style="background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="container">
+    <div class="section-head">
+      <h2>Latest Announcements</h2>
+      <p>Public advisories and updates from the Municipal Government of Baungon.</p>
+    </div>
+    <div class="pill-row" id="annFilters"></div>
+    <div class="ann-grid" id="annGrid"></div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="#" class="btn btn-ghost">View All Announcements</a>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="section" id="events">
+  <div class="container">
+    <div class="section-head">
+      <h2>Upcoming Events</h2>
+      <p>Municipal activities, community programs, and civic celebrations.</p>
+    </div>
+    <div class="pill-row" id="evFilters"></div>
+    <div class="events-grid" id="evGrid"></div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="#" class="btn btn-ghost">View All Events</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about" style="background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="container about-grid">
+    <div class="about-visual">
+      <img src="assets/images/baungon-logo.png" alt="Official Seal of the Municipality of Baungon">
+    </div>
+    <div>
+      <h2>About the Municipality of Baungon</h2>
+      <p style="color:var(--ink-soft);">Baungon is a municipality in the province of Bukidnon, Mindanao, nestled among mountains, farmland, and river valleys. Founded in 1956, the town has grown from an agricultural frontier settlement into a community shaped by farming, trade, and a strong sense of local identity, reflected in the mountains, fields, flora, and carabao depicted on the municipal seal.</p>
+      <p style="color:var(--ink-soft);"><strong>Mission —</strong> To deliver responsive, transparent, and inclusive governance that uplifts the welfare of every resident of Baungon.</p>
+      <p style="color:var(--ink-soft);"><strong>Vision —</strong> A progressive, peaceful, and self-reliant municipality anchored on sustainable agriculture, good governance, and community well-being.</p>
+      <div class="about-stats">
+        <div><div class="num">1956</div><div class="lbl">Year founded</div></div>
+        <div><div class="num">18</div><div class="lbl">Barangays</div></div>
+        <div><div class="num">100%</div><div class="lbl">Commitment to service</div></div>
+      </div>
+      <div style="margin-top:28px;">
+        <a href="#" class="btn btn-primary">Learn More About Baungon</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFICIALS -->
+<section class="section" id="officials">
+  <div class="container">
+    <div class="section-head">
+      <h2>Our Municipal Officials</h2>
+      <p>Names shown are placeholders for demonstration and should be replaced with verified, currently elected officials.</p>
+    </div>
+    <div class="officials-grid" id="officialsGrid"></div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="#" class="btn btn-ghost">View All Officials</a>
+    </div>
+  </div>
+</section>
+
+<!-- DEPARTMENTS -->
+<section class="section" id="departments" style="background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+  <div class="container">
+    <div class="section-head">
+      <h2>Municipal Departments</h2>
+      <p>Offices that carry out the day-to-day work of local government.</p>
+    </div>
+    <div class="dept-grid" id="deptGrid"></div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head">
+      <h2>Municipal Services</h2>
+      <p>Browse services by category. Listed details are for website demonstration and can be replaced with verified municipal information.</p>
+    </div>
+    <div class="pill-row" id="svcFilters"></div>
+    <div id="svcContainer"></div>
+  </div>
+</section>
+
+<!-- TRANSPARENCY -->
+<section class="section" id="transparency" style="background:var(--navy);color:#fff;">
+  <div class="container">
+    <div class="section-head">
+      <h2 style="color:#fff;">Transparency &amp; Open Government</h2>
+      <p style="color:rgba(255,255,255,0.72);">Public documents and reports made available in the spirit of open governance.</p>
+    </div>
+    <div class="trans-grid" id="transGrid"></div>
+  </div>
+</section>
+
+<!-- DISCOVER -->
+<section class="section discover-wrap" id="discover">
+  <div class="container">
+    <div class="section-head">
+      <h2>Discover Baungon</h2>
+      <p>Nature, culture, and community — a glimpse of what makes Baungon home.</p>
+    </div>
+    <div class="disc-grid" id="discGrid"></div>
+    <div style="text-align:center;margin-top:36px;">
+      <a href="#" class="btn btn-outline">Explore Baungon</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <h2>Contact the Municipality</h2>
+      <p style="color:var(--ink-soft);">Municipality of Baungon, Province of Bukidnon, Philippines</p>
+      <div style="margin-top:28px;">
+        <div class="contact-info-item">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div><h4>Municipal Hall Address</h4><p>Poblacion, Baungon, Bukidnon, Philippines</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.34 1.78.66 2.61a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.47-1.27a2 2 0 0 1 2.11-.45c.83.32 1.71.54 2.61.66A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <div><h4>Telephone Number</h4><p>(088) 000-0000</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+          </div>
+          <div><h4>Email Address</h4><p>info@baungon.gov.ph</p></div>
+        </div>
+        <div class="contact-info-item">
+          <div class="ic">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <div><h4>Office Hours</h4><p>Monday – Friday, 8:00 AM – 5:00 PM </p></div>
+        </div>
+      </div>
+      : <div class="map-ph"> <iframe src="https://www.google.com/maps?q=Baungon,Bukidnon&output=embed" width="100%" height="100%" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe> </div>
+    <div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-status" id="formStatus"></div>
+        <div class="form-row">
+          <div class="field" id="f-name">
+            <label for="cf-name">Full Name</label>
+            <input type="text" id="cf-name" name="name" placeholder="Juan Dela Cruz">
+            <div class="err-msg">Please enter your full name.</div>
+          </div>
+          <div class="field" id="f-email">
+            <label for="cf-email">Email</label>
+            <input type="email" id="cf-email" name="email" placeholder="you@example.com">
+            <div class="err-msg">Please enter a valid email address.</div>
+          </div>
+        </div>
+        <div class="field" id="f-subject">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" placeholder="What is this about?">
+          <div class="err-msg">Please enter a subject.</div>
+        </div>
+        <div class="field" id="f-message">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" placeholder="Write your message here..."></textarea>
+          <div class="err-msg">Please enter a message (minimum 10 characters).</div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/baungon-logo.png" alt="Seal of Baungon">
+          <div>
+            <div class="t1">Municipality of Baungon</div>
+            <div class="t2">Province of Bukidnon</div>
+          </div>
+        </div>
+        <p style="font-size:13.5px;max-width:280px;">The official digital presence of the Municipality of Baungon, Bukidnon, Philippines.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#announcements">Announcements</a></li>
+          <li><a href="#events">Events</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Government</h5>
+        <ul>
+          <li><a href="#departments">Departments</a></li>
+          <li><a href="#officials">Officials</a></li>
+          <li><a href="#transparency">Transparency</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Municipality of Baungon, Bukidnon. All Rights Reserved.</div>
+      <div class="links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

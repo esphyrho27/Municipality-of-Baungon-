@@ -1,0 +1,7 @@
+{
+  "Business Services": ["Business Permit", "Business Registration", "Other Business Services"],
+  "Civil Registry": ["Birth Certificate Assistance", "Marriage Certificate Assistance", "Death Certificate Assistance"],
+  "Health Services": ["Health Center Services", "Medical Assistance", "Health Programs"],
+  "Social Services": ["Social Welfare Assistance", "Community Programs", "Senior Citizen Services"],
+  "Agriculture": ["Agricultural Assistance", "Farmer Services", "Agricultural Programs"]
+}

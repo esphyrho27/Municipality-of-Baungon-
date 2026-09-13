@@ -1,0 +1,10 @@
+[
+  { "icon": "building", "name": "Municipal Services", "description": "Permits, records, and general public transactions." },
+  { "icon": "briefcase", "name": "Business Services", "description": "Register or renew a business in Baungon." },
+  { "icon": "file", "name": "Civil Registry", "description": "Birth, marriage, and death certificate assistance." },
+  { "icon": "heart", "name": "Health Services", "description": "Health center programs and medical assistance." },
+  { "icon": "users", "name": "Social Services", "description": "Welfare assistance and community programs." },
+  { "icon": "leaf", "name": "Agriculture", "description": "Support and programs for local farmers." },
+  { "icon": "hammer", "name": "Infrastructure", "description": "Roads, public works, and facility updates." },
+  { "icon": "scale", "name": "Other Government Services", "description": "Legal, licensing, and additional offices." }
+]

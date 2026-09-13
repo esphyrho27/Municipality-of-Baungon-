@@ -1,0 +1,8 @@
+[
+  { "day": "18", "month": "SEP", "title": "Baungon Founding Anniversary Program", "location": "Municipal Plaza", "description": "Cultural presentations and civic ceremony celebrating Baungon's founding.", "type": "Civic" },
+  { "day": "25", "month": "SEP", "title": "Farmers' Congress and Agri Fair", "location": "Municipal Gymnasium", "description": "Agricultural exhibits and training sessions for local farmers.", "type": "Agriculture" },
+  { "day": "02", "month": "OCT", "title": "Community Health and Wellness Day", "location": "Rural Health Unit", "description": "Free checkups, consultations, and wellness activities for residents.", "type": "Health" },
+  { "day": "14", "month": "OCT", "title": "Barangay Development Council Assembly", "location": "Session Hall, Municipal Hall", "description": "Quarterly assembly to discuss barangay development priorities.", "type": "Civic" },
+  { "day": "29", "month": "OCT", "title": "Livelihood and Skills Training Workshop", "location": "SB Training Center", "description": "Skills training program for out-of-school youth and residents.", "type": "Social" },
+  { "day": "09", "month": "NOV", "title": "Baungon Harvest and Trade Fair", "location": "Poblacion Grounds", "description": "Showcasing local products, crafts, and agricultural harvest.", "type": "Agriculture" }
+]

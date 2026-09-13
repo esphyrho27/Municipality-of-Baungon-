@@ -1,0 +1,13 @@
+[
+  { "icon": "home", "name": "Office of the Mayor", "description": "Executive leadership and overall municipal administration." },
+  { "icon": "users", "name": "Office of the Vice Mayor", "description": "Legislative oversight and Sangguniang Bayan affairs." },
+  { "icon": "briefcase", "name": "Human Resource Management Office", "description": "Personnel administration and employee welfare." },
+  { "icon": "cash", "name": "Municipal Treasurer's Office", "description": "Collection and management of municipal revenues." },
+  { "icon": "chart", "name": "Municipal Budget Office", "description": "Preparation and monitoring of the municipal budget." },
+  { "icon": "doc", "name": "Municipal Accounting Office", "description": "Financial recording and reporting for the LGU." },
+  { "icon": "building", "name": "Municipal Planning and Development Office", "description": "Local development planning and project monitoring." },
+  { "icon": "hammer", "name": "Municipal Engineering Office", "description": "Infrastructure planning, construction, and maintenance." },
+  { "icon": "heart", "name": "Municipal Health Office", "description": "Public health programs and health center operations." },
+  { "icon": "seedling", "name": "Municipal Agriculture Office", "description": "Support services and programs for local farmers." },
+  { "icon": "users", "name": "Municipal Social Welfare and Development Office", "description": "Social protection programs for vulnerable sectors." }
+]
